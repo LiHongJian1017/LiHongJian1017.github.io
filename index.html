@@ -12,6 +12,41 @@
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/pdfobject.js"></script>
+<script type="text/javascript" src="js/easing.min.js"></script
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/pdfobject.js"></script>
+<script type='text/javascript'>
+	 window.onload=function(){new PDFObject({ 
+     url: 'images/简历.pdf', 
+     pdfOpenParams: { 
+          view: 'Fit', 
+          scrollbars: '0', 
+          toolbar: '0', 
+          statusbar: '0', 
+          navpanes: '0' }
+      }).embed('pdf1'); 
+	  };
+	  
+	  // 点击触发 targetDivId:展示pdf的divid。pdfurl：pdf资源路径
+	  function readMe(targetDivId,pdfurl){
+	   new PDFObject({ 
+     	url: pdfurl, 
+     	pdfOpenParams: { 
+          view: 'Fit', 
+          scrollbars: '0', 
+          toolbar: '0', 
+          statusbar: '0', 
+          navpanes: '0' }
+       }).embed(targetDivId); 
+	  }
+</script>
+
+
+
+
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){		
@@ -32,6 +67,7 @@
 			   <div class="top-menu">
 			   <span class="menu"> </span>
 			      <ul>
+					  <li><a href="images/简历.pdf">我的简历</a></li>
 				      <li><a href="#aboutus" class="scroll">About Me</a></li>
 					  <li><a href="#work" class="scroll">Skills</a></li>
 					  <li><a href="#clients" class="scroll">Blog</a></li>
