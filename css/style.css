@@ -176,7 +176,7 @@ ul.wmuSliderPagination {
 .bannertop_box{
 	width:45%;
 	float:left;
-	padding:0 0 0 6.5em;
+	padding:0 0 0 11.5em;
 }
 .bannertop_box h1 {
 	color: #EDE8E0;
@@ -1197,7 +1197,7 @@ span.more a:hover{
 	}
 	.banner_right {
 		width: 86%;
-		padding: 0 3.5em 0 1em;
+		padding: 3.5em 3.5em 0 1em;
 		text-align: center;
 	}
 	.wmuSliderPagination {

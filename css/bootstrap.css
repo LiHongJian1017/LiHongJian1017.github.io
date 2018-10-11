@@ -314,7 +314,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  max-width: 65%;
   height: auto;
 }
 .img-rounded {
@@ -322,7 +322,7 @@ img {
 }
 .img-thumbnail {
   display: inline-block;
-  max-width: 100%;
+  max-width: 65%;
   height: auto;
   padding: 4px;
   line-height: 1.42857143;
